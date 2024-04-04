@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#verticalline{
+    height: 32px;
+    border: 1px solid #dadada;
+    margin: 15px;
+}
+navbar>div>div{
+    margin: 15px;
+    color: #4F4F4F;
+    height: 25px;
+}
+.icon{
+    border: 2px solid #2F80ED;
+    width: 108px;
+    height: 47px;
+    padding: 15px 36px 15px 36px;
+    border-radius:8px 10px 8px 10px;
+    text-align: center;
+    color: #2F80ED;
+    font-style: italic;
+    padding-bottom: 40px;
+    background-color: white;
+}
+.bor{
+    text-align: center;
+    background-color: #2F80ED;
+    color:white;
+}
+herosection{
+    width: 1440px;
+    height: 783px;
+}
+header{
+    display: grid;
+    
+}
+nav{
+    height: 50px;
+    width: 100%;
+}
+svg{
+height: 15px;
+width: 15px;
+}
+button{
+height: 35px;
+
+}
+.a{
+width: 20%;
+}
+.first{
+display: grid;
+grid-template-columns: 12;
+grid-gap: 5px;
+
+align-items: center;
+}
+#text{
+grid-column-start: 1;
+grid-column-end: 6;
+height: 550px;
+padding-top: 50px;
+padding-left: 7%;
+
+
+}
+#h{
+    font-size: 50px;
+}
+#card{
+grid-column-start: 6;
+grid-column-end: 13;
+height: 550px;
+width:100%;
+align-items: center;
+
+}
+input{
+background-color: transparent;
+border: 0px;
+}
+#int{
+background-color: rgb(244, 243, 239);
+border-radius: 6px;
+border: 0px;
+margin-bottom: 10px;
+width: 75%;
+}
+.card{
+box-shadow:  0 4px 8px 0 rgb(249, 137, 187), 0 6px 20px 0 rgba(93, 179, 227, 0.92);
+}
+.card>img{
+margin-left: 20px;
+}
+.second{
+display: grid;
+grid-template-columns: 12;
+grid-gap: 5px;
+
+align-items: center;
+}
+
+
+.logo{
+text-align: center;
+}
+
+.logo>button{
+color: white;
+background-color:#2F80ED;
+width:276px;
+height: 55px;
+border-radius: 8px;
+font-style: italic;
+margin: 20px;
+border: none;
+}
+.image{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-left: 12%;
+}
+.p-2{
+    font-family: ABeeZee;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+.p-3{
+    color: #595959;
+}
+  .table1>button{
+    margin: 2px;
+    border-radius: 4px;
+    padding: 2px;
+}
+  .table2>button{
+    margin: 2px;
+    border-radius: 4px;
+    padding: 2px;
+}
+.table1{
+    border-radius:5px;
+    border:2px;
+    border-color:rgb(39, 10, 209);
+    background-color:white;
+    padding:10px;
+    width:40%;
+}
+.table2{
+    border-radius: 5px;
+    border: 2px;
+    border-color: rgb(39, 10, 209);
+    background-color: white;
+    padding: 10px;
+     width: 40%
+}
+td{
+    width: 10000px;
+  }
+tr {
+    border-bottom: 2px solid #ddd;
+}
